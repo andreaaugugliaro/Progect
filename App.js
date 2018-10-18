@@ -22,7 +22,7 @@ class App extends React.Component{
 		return (
 		<div>
 			<h1> 
-			Counter:{this.state.counter}
+			Contatore: {this.state.counter}
 			</h1>
 			{this.renderButtonComponent("Incrementa",() => this.setState({counter: this.state.counter +1}))}
 			{this.renderButtonComponent("Decrementa",() => this.setState({counter: this.state.counter -1}))}    	
